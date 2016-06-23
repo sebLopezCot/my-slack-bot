@@ -5,7 +5,7 @@ var router = express.Router();
 router.post('/', function(req, res){
 	// res.render('index', {gimme: req.body});
 	console.log(req.body);
-	res.send("Done");
+	res.send("Soon you'll be able to launch cyclops from here!");
 });
 
 module.exports = router;
